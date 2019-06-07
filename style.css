@@ -1,0 +1,121 @@
+/* nav */
+nav a {
+  color: #66ff33!important;
+  border-bottom: 3px solid #66ff33!important;
+}
+
+/* register */
+
+form input {
+  text-align: center;
+}
+
+.section {
+  text-align: center;
+}
+
+/* Table */
+td {
+  width: 100%;
+}
+tr, td {
+  padding: 20px;
+
+}
+tbody tr:nth-child(even){
+  background-color: #333333;
+}
+tbody tr:nth-child(odd){
+  background-color: #262626;
+}
+
+/* error message login en register */
+#errormes {
+  height: 60px;
+  margin-top: 10px;
+  padding: 3px;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 3px solid #66ff33;
+}
+
+/* global */
+
+#global {
+    height: 430px;
+}
+
+#height {
+    height: 600px;
+}
+
+.height img{
+  height: 600px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* boxes */
+
+.head1 {
+  margin-top: 1rem;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  border-bottom: 3px solid #66ff33;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.article1 {
+  margin-top: 1rem;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 3px;
+  height: 300px;
+  border-bottom: 3px solid #66ff33;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.article1 li {
+  list-style: none;
+}
+
+.article2 {
+  margin-top: 1rem;
+  background-color: #333333;
+  color: lightgrey;
+  padding: 3px;
+  border-bottom: 3px solid #66ff33;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* buttons */
+.btn-outline-success {
+    color: #66ff33;
+    border-color: #66ff33;
+}
+
+/* footer */
+footer {
+  margin-top: 1rem;
+
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  height: 150px;
+}
+
+footer ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer h5 {
+  color: #66ff33;
+}
